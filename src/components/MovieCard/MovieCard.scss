@@ -1,0 +1,38 @@
+.movie-card {
+    width: 300px;
+    // padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 8px 4px #eeeeee;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    position: relative;
+    .card-rating {
+        position: absolute;
+        top: 20px;
+        right: 0;
+        padding: 10px 20px 10px 10px;
+        background-color: #8468f0;
+        color: #fff;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    .card-img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    .card-title {
+        margin-bottom: 20px;
+    }
+    .release-date {
+        margin-bottom: 10px;
+    }
+    .card-btn {
+        text-decoration: none;
+        padding: 5px 10px;
+        background-color: blue;
+        color: #fff;
+        border-radius: 5px;
+        display: inline-block;
+    }
+}
